@@ -11,10 +11,9 @@ indent() {
 
 BUILD_DIR=$1
 CACHE_DIR=$2
-ENV_DIR=$3
 
 # Hugo version
-VERSION=$ENV_DIR/$HUGO_VERSION
+VERSION="0.17"
 
 # Hugo URL ( download from GH builds )
 ARCHIVE_NAME=hugo_${VERSION}_Linux-64bit
