@@ -13,9 +13,7 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 
 # Hugo version
-echo $BUILD_DIR/.hugoversion
-echo $BUILD_DIR/.hugoversion
-VERSION="`cat $BUILD_DIR/.hugoversion`"
+VERSION="0.14"
 
 # Hugo URL ( download from GH builds )
 ARCHIVE_NAME=hugo_${VERSION}_Linux-64bit
